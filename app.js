@@ -6,7 +6,7 @@ var server = require('http').Server(app);
 port = process.env.PORT || 8080;
 // Catch all other routes and return the index file
 app.get('/', (req, res) => {
-  res.send("hello world!!");
+  res.send("Bonjour monde!!");
 });
 // use morgan to log requests to the console
 app.use(morgan('dev'));
