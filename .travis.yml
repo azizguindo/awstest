@@ -17,5 +17,5 @@ deploy:
   env: "awstest-dev"
   bucket_name: "https://s3.console.aws.amazon.com/s3/buckets/elasticbeanstalk-eu-west-3-161957065451?region=eu-west-3"
   on:
-  branch: master
+  branch: main
 
