@@ -15,7 +15,7 @@ deploy:
   region: "eu-west-3"
   app: "awstest"
   env: "awstest-dev"
-  bucket_name: "https://s3.console.aws.amazon.com/s3/buckets/elasticbeanstalk-eu-west-3-161957065451?region=eu-west-3"
+  bucket_name: "elasticbeanstalk-eu-west-3-161957065451"
   on:
   branch: main
 
